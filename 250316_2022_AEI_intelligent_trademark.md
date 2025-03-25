@@ -5,6 +5,8 @@ Authors: Amy J.C. Trappey, Charles V. Trappey, Eason Lin
 
 DOI: 10.1016/j.aei.2022.101567
 
+![alt text](images/image-9.png)
+
 ## 1. Problem:
 
 - Increasing Trademark Infringement -> Manual Detection is Inefficient
@@ -15,6 +17,8 @@ A two-stage deep learning system for automated trademark detection and similarit
 
 - YOLO v4 for detecting and cropping logos in product images.
 - Triplet CNN to compare logos with a registered trademark database.
+- The difference for triplet model training is that the triplet pairs (a, p, n), are applied for training where “a” is the anchor, “p” is the similar image, and “n” is dissimilar image. The triplet loss will induce similar image pairs closer and dissimilar image pairs further away from each other during the training.
+- ![alt text](images/image-10.png)
 
 ## 3. Results:
 

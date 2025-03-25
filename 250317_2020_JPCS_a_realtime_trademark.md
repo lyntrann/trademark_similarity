@@ -8,7 +8,7 @@ Authors: Yang Leng, Qixiong Fan
 ## 1. Problem: 
 *Real-time* capability of trademark detection suffers from *false detections* in complex backgrounds and *difficulty handling size variations* in different trademarks.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Limitations of existing methods: 
 - Traditional feature-based detection is *time-consuming, lacks generalization, and has low accuracy*.
@@ -43,7 +43,7 @@ Flickrlogos-32
 - LOGO-YOLOv3 is slightly slower than YOLOv3 (2.2 FPS lower) but still fast enough for real-time detection.
 
 ## 6. Methodology:
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 1. Feature Extraction Enhancement
 

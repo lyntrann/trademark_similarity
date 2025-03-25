@@ -13,6 +13,7 @@ Authors: Hayfa Alshowaish, Yousef Al-Ohali, Abeer Al-Nafjan
 - Euclidean distance is used to measure similarity between trademarks.
 - The system retrieves the most similar registered trademarks to a given query, reducing the examiner's workload.
 
+![alt text](images/image-11.png)
 ## 3. Results:
 
 - Dataset:  Middle East Technical University dataset (METU dataset)

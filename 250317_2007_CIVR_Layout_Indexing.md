@@ -8,9 +8,9 @@ Current retrieval methods mostly focus on shape similarity, neglecting spatial l
 
 Or the challenge of trademark image segmentation and shape identification
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 # 2. Proposed Solution:
 - A graph-based indexing framework to retrieve trademarks based on layout similarity.
