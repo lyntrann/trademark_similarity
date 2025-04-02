@@ -1,4 +1,4 @@
-# Trademark Image Retrieval via Multi-Modal Feature Fusion
+# Trademark Image Similarity Detection Using Convolutional Neural Network
 February 8, 2022, **Applied Sciences (MDPI)**
 
 DOI: 10.3390/app12031752
@@ -11,7 +11,6 @@ Authors: Hayfa Alshowaish, Yousef Al-Ohali, Abeer Al-Nafjan
 
 - CNNs (ResNet-50 and VGG-16) extract image features automatically.
 - Euclidean distance is used to measure similarity between trademarks.
-- The system retrieves the most similar registered trademarks to a given query, reducing the examiner's workload.
 
 ![alt text](images/image-11.png)
 ## 3. Results:
@@ -43,6 +42,7 @@ Proposed approach: NAR = 0.0725, which is better.
 - Principal Component Analysis (PCA) is applied to reduce feature dimensions and improve efficiency.
 4. Similarity Measurement:
 - Euclidean distance is used to calculate the similarity between query and registered trademarks.
+
 5. Evaluation Metrics:
 - Average rank, Normalized Average Rank (NAR), and Mean Average Precision (mAP).
 

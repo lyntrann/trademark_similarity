@@ -23,6 +23,50 @@ METU Trademark Dataset
 # 4. Methodology:
 ![alt text](images/image-6.png)
 
+1. Pre-processing
+
+Resize images to a fixed size (224×224) while preserving aspect ratio.
+
+Normalize images using mean and standard deviation from training datasets.
+
+2. Feature Extraction
+
+Extract global features using CNN and ViT-based models.
+
+CNN features are taken from the last convolutional layer (Global Max Pooling).
+
+ViT features use the CLS token.
+
+3. Post-processing
+
+L2-normalization: Standardizes feature vectors.
+
+PCA whitening: Reduces redundancy and improves feature representation.
+
+Query Expansion (αQE): Refines search queries using top-ranked images.
+
+4. Search (K-NN)
+
+Use K-Nearest Neighbors (K-NN) with L2 distance metric to find the most similar trademarks.
+
+5. Local Feature Extraction
+
+Use Difference of Gaussians (DoG) detector and HardNet8 descriptor to extract key points.
+
+6. Descriptor Matching
+
+Use Second Mutual Nearest Neighbors (SMNN) and MAGSAC++ to match descriptors and filter outliers.
+
+7. Re-ranking
+
+Adjust ranking scores using local features to improve retrieval accuracy.
+
+8. Merging Local and Global Features
+
+Combine results from both global and local searches for better accuracy.
+
+
+
 # 5. Experiment and Results:
 Dataset: METU Trademark Dataset
 
